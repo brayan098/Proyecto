@@ -30,5 +30,6 @@
     </table>
     <br>
     <a href="consulta2.php" class="ir-button">Consulta 2</a>
+    <a href="form_busqueda.php" class="search-button">Búsqueda</a>
 </body>
 </html>

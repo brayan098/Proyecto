@@ -54,3 +54,19 @@ th, td {
     background-color: #fff;
     color: #333;
 }
+.search-button {
+    display: inline-block;
+    background-color: #e73c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 0.8vw;
+}
+
+.search-button:hover {
+    background-color: #c0392b;
+}

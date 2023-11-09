@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="">
 </head>
 <body>
-    <div class="main-content">
+    <br><br>
         <form class="form-search" method="get" action="result_busqueda.php">
-            <input type="search" name="search" placeholder="Buscar Producto..." autofocus required>
-            <button type="submit">Buscar</button>
+            <input type="search" name="search" placeholder="Buscar Producto..." autofocus required> <br>
+            <button type="submit">Buscar</button> <br>
             <a href="consulta.php" class="ir-button">Volver a consulta</a>
         </form>
-    </div>    
+       
 </body>
 </html>

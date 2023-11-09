@@ -36,5 +36,7 @@
     ?>
     </tr>
     </table>
+    <br>
+    <a href="form_busqueda.php" class="ir-button">Volver a buscar</a>
 </body>
 </html>

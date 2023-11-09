@@ -28,5 +28,7 @@
     ?>
     </tr>
     </table>
+    <br>
+    <a href="consulta.php" class="ir-button">Consulta</a>
 </body>
 </html>

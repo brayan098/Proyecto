@@ -27,7 +27,8 @@
     mysqli_close($conexion);
     ?>
     </tr>
-    <a href="consulta2.php" class="ir-button">Consulta 2</a>
     </table>
+    <br>
+    <a href="consulta2.php" class="ir-button">Consulta 2</a>
 </body>
 </html>

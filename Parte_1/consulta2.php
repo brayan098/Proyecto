@@ -4,12 +4,19 @@
     <link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
 <body>
+<table>
+    <tr>
+            <th>ID</th>
+            <th>SECCION</th>
+            <th>PRODUCTO</th>
+            <th>ORIGEN</th>
+            <th>IMPORTADO</th>
+            <th>PRECIO</th>
 
     <?php
     require_once("conexionbd.php");
         $consulta = "SELECT * FROM productos WHERE seccion ='CERAMICA'";
         $resultado = mysqli_query($conexion, $consulta);
-        echo '<table>';
         while ($fila = mysqli_fetch_row($resultado)) {
         echo "<tr>";
         foreach ($fila as $valor) {
@@ -17,9 +24,9 @@
         }
         echo "</tr>";
         }
-        echo '</table>';
-        
         mysqli_close($conexion);
     ?>
+    </tr>
+    </table>
 </body>
 </html>

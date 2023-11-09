@@ -11,11 +11,11 @@
     <table>
     <tr>
             <th>ID</th>
-            <th>Seccion</th>
-            <th>Producto</th>
-            <th>Origen</th>
-            <th>Importado</th>
-            <th>Precio</th>
+            <th>SECCION</th>
+            <th>PRODUCTO</th>
+            <th>ORIGEN</th>
+            <th>IMPORTADO</th>
+            <th>PRECIO</th>
     <?php
     require_once("conexionbd.php");
     $busqueda = $_GET["search"];

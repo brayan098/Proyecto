@@ -5,7 +5,7 @@
     flex-direction: column;
 }
 button {
-    padding: 10px 30px; /* Ajusta el tamaño del botón según necesites */
+    padding: 10px 30px;
     border: none;
     border-radius: 6px;
     background-color: #007bff;

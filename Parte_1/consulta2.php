@@ -7,7 +7,7 @@
 
     <?php
     require_once("conexionbd.php");
-        $consulta = "SELECT * FROM productos WHERE producto ='CERAMICA'";
+        $consulta = "SELECT * FROM productos WHERE seccion ='CERAMICA'";
         $resultado = mysqli_query($conexion, $consulta);
         echo '<table>';
         while ($fila = mysqli_fetch_row($resultado)) {

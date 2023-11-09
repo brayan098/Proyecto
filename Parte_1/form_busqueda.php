@@ -10,7 +10,7 @@
 <body>
     <div class="main-content">
         <form class="form-search" method="get" action="result_busqueda.php" >
-            <input type="search" name="search" placeholder="Buscar Producto" autofocus required>
+            <input type="search" name="search" placeholder="Buscar Producto..." autofocus required>
             <button type="submit">Buscar</button>
         </form>
     </div>    

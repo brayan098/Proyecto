@@ -22,7 +22,7 @@
 
     mysqli_close($conexion);
     ?>
-    <a href="consulta2.php" class="back-button">Consulta 2</a>
+    <a href="consulta2.php" class="ir-button">Consulta 2</a>
     
 </body>
 </html>

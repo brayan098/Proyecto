@@ -19,6 +19,12 @@
 
         $consulta = "INSERT INTO productos(id_producto, seccion, producto, origen, importada, precio) VALUES('$id', '$sec', '$prod', '$org', '$imp', '$prec')";
         $resultado2 = mysqli_query($conexion, $consulta);
+
+        echo '<script>alert("Los productos fueron insertados correctamente");</script>';
+        echo '<script>window.location.href="form_registro.php";</script>';
+        
+       
+        
     }
         
     mysqli_close($conexion);

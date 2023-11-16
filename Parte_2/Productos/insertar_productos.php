@@ -9,15 +9,18 @@
     }
     mysqli_select_db($conexion,$db_nombre) or die (" NO SE ENCUENTRA LA BASE DE DATOS");
 
-    $id=$_POST["c_prod"];
-    $sec=$_POST["seccion"];
-    $prod=$_POST["n_prod"];
-    $org=$_POST["p_orig"];
-    $imp=$_POST["importado"];
-    $prec=$_POST["precio"];
+    if(isset($_GET["enviar"])){
+        $id=$_GET["c_prod"];
+        $sec=$_GET["seccion"];
+        $prod=$_GET["n_prod"];
+        $org=$_GET["p_orig"];
+        $imp=$_GET["importado"];
+        $prec=$_GET["precio"];
 
-    $consulta = "INSERT INTO productos(id_producto, seccion, producto, origen, importada, precio) VALUES ('$id', '$sec', '$prod', '$org', '$imp', '$prec')";
-    $resultado2 = mysqli_query($conexion, $consulta);
+        $consulta = "INSERT INTO productos(id_producto, seccion, producto, origen, importada, precio) VALUES('$id', '$sec', '$prod', '$org', '$imp', '$prec')";
+        $resultado2 = mysqli_query($conexion, $consulta);
+    }
+        header('location: form_registro.php');
     
     mysqli_close($conexion);
     ?>

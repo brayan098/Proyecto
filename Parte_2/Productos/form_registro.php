@@ -32,7 +32,7 @@
             <div class="form-row">
                 <label>Importado</label>
                 <select name="importado" id="importado" required>
-                            <option></option>
+                            <option> </option>
                             <option>VERDADERO</option>
                             <option>FALSO</option>
                 </select>

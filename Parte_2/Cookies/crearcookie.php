@@ -7,7 +7,9 @@
 </head>
 <body>
     <?php
-    setcookie("micookie", "LOS DATOS DE LA COOKIE", time()+45);
+    setcookie("micookie", "LOS DATOS DE LA COOKIE", time()+45,
+            "Proyecto/Parte_2/Cookies/crearcookie.php");
+    
     ?>
 </body>
 </html>

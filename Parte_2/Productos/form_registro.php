@@ -15,7 +15,7 @@
             </div>
             <div class="form-row">
                 <label>Código de producto</label>
-                <input type="text" name="c_prod" id="c_prod">
+                <input type="text" name="c_prod" id="c_prod" autofocus>
             </div>
             <div class="form-row">
                 <label>Sección</label>

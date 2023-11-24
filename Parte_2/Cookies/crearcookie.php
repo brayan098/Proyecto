@@ -1,3 +1,6 @@
+<?php
+    setcookie("micookie", "LOS DATOS DE LA COOKIE", time()+45);
+    ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,10 +9,7 @@
     <title>CREAR COOKIE</title>
 </head>
 <body>
-    <?php
-    setcookie("micookie", "LOS DATOS DE LA COOKIE", time()+45,
-            "Proyecto/Parte_2/Cookies/crearcookie.php");
-    
-    ?>
+   <h1>Cookie Creada</h1>
+   <p>Se ha creado la cookie</p>
 </body>
 </html>

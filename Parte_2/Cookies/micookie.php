@@ -8,11 +8,11 @@
 <body>
     <?php
     if(isset($_COOKIE["micookie"])){
-        echo $_COOKIE["micookie"] . "<br>";
+        echo "<p>" . $_COOKIE["micookie"] . "</p>";
     } else {
-        echo "No hay cookies" . "<br>";
+        echo "<p>NO HAY COOKIES</p>";
     }
-    //echo $_COOKIE["micookie"];
+    
     ?>
 </body>
 </html>

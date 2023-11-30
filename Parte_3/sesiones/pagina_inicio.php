@@ -7,7 +7,7 @@ try{
     $login=htmlentities(addslashes($_POST["correo"])); 
     $password=htmlentities(addslashes($_POST["password"]));
     $resultado->bindValue(":login",$login);
-    // $password=password_hash($password->getClave(), PASSWORD_DEFAULT);
+    // $password=password_hash($password->getClave(), PASSWORD_DEFAULT)
     $resultado->bindValue(":password", $password);
     $resultado->execute();
     $numero_registro=$resultado->rowCount();

@@ -22,7 +22,7 @@
         <input type="password" name="contraseña">
         </div>
 
-        <div class="form_c">
+        <div class="recordar">
         <input type="checkbox" name="recordar">
         <label>Recordarme en este equipo</label>
         

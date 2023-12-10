@@ -3,36 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FORMULARIO.</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Formulario de acceso</title>
+    
 </head>
 <body>
-    <style>
-        form input[type="submit"] { 
-            margin-left: 44px; 
-            text-decoration: none;
-            width: 100px;
-            height: 30px;
-            border: 1px solid #d7d7d7;
-            background: #8F8E8C;
-        }
-            form input[type="password"], form input[type="email"] {
-            display: table-cell;
-            width: 300px;
-            height: 20px;
-            border: 1px solid #d7d7d7;
-            border-radius: 3px;
-        }
-    </style>
-    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-        <div>
-            <label>Usuario: </label>
-            <input type="email" name="correo" autofocus required><br>
-
-            <label>Contraseña: </label>
-            <input type="password" name="password" required><br><br>
-
-            <input type="submit" name="enviar" value="ENVIAR">
+       
+        <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post"> 
+        <div class="form">  
+        <h1 class="titulo">Acceso al sistema</h1>
+        <div class="form_c">
+        <label>Usuario: </label>
+        <input type="email" name="correo" required autofocus><br>
         </div>
-    </form>
+
+        <div class="form_c">
+        <label>Contraseña: </label>
+        <input type="password" name="contraseña">
+        </div>
+
+        <div class="form_c">
+        <input type="checkbox" name="recordar">
+        <label>Recordarme en este equipo</label>
+        
+        </div>
+
+        <div class="boton">
+        <input type="submit" name="enviar" value="INGRESAR">
+        </div>
+        </form>
+    </div>
 </body>
 </html>

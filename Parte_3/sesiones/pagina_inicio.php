@@ -17,9 +17,9 @@ if (isset($_POST["enviar"])){
       $base->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
       $sql="SELECT * FROM datos_usuario WHERE usuario= :login AND contraseña= :password";
       $resultado=$base->prepare ($sql);
-      $corr=htmlentities(addslashes($_POST["correo"]));
+      $corre=htmlentities(addslashes($_POST["correo"]));
       $contra=htmlentities(addslashes($_POST["contraseña"])); 
-      $resultado->bindValue(":login", $corr);
+      $resultado->bindValue(":login", $corre);
 
       $password-password_hash($contraseña->getClave(), PASSWORD_DEFAULT);
 

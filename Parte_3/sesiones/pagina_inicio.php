@@ -21,7 +21,6 @@ if (isset($_POST["enviar"])){
       $contra=htmlentities(addslashes($_POST["contraseña"])); 
       $resultado->bindValue(":login", $corre);
 
-      //$password-password_hash($contraseña->getClave(), PASSWORD_DEFAULT);
 
       $resultado->bindValue(":password",$contra);
 

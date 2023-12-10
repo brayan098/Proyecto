@@ -10,16 +10,16 @@
 <body>
        
         <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post"> 
-        <div class="form">  
-        <h1 class="titulo">Acceso al sistema</h1>
+      <div class="form">  
+      <h1 class="titulo">Acceso al sistema</h1>
         <div class="form_c">
-        <label>Usuario: </label>
-        <input type="email" name="correo" required autofocus><br>
+        <label>Usuario:</label>
+        <input type="email" name="correo"><br>
         </div>
 
         <div class="form_c">
-        <label>Contraseña: </label>
-        <input type="password" name="contraseña" required>
+        <label>Contraseña:</label>
+        <input type="password" name="contraseña">
         </div>
 
         <div class="recordar">
@@ -29,9 +29,11 @@
         </div>
 
         <div class="boton">
-        <input type="submit" name="enviar" value="INGRESAR">
+        <input type="submit" name="enviar" value="Ingresar">
         </div>
         </form>
+        <br>
+        <label>No tengo cuenta<a href="registro.php">Crear cuenta</a></label>
     </div>
 </body>
 </html>

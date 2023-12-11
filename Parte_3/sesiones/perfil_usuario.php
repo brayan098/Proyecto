@@ -17,7 +17,7 @@
             <li><a href="pagina_inicio.php">Inicio</a></li>
             <li><a href="#">Nosotros</a></li>
             <li><a href="#">Contacto</a></li>
-            <li><a href="eliminarcookie.php">Eliminar cookie</a></li>
+            <li><a href="eliminar_cookie.php">Cerrar sesión</a></li>
 
         </ul>
     </nav>

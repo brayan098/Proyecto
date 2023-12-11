@@ -14,12 +14,12 @@
       <h1 class="titulo">Acceso al sistema</h1>
         <div class="form_c">
         <label>Usuario:</label>
-        <input type="email" name="correo"><br>
+        <input type="email" name="correo" required autofocus><br>
         </div>
 
         <div class="form_c">
         <label>Contraseña:</label>
-        <input type="password" name="contraseña">
+        <input type="password" name="contraseña" required>
         </div>
 
         <div class="recordar">

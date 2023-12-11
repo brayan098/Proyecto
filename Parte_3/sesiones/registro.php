@@ -35,10 +35,10 @@
         if(isset($_POST["enviar"])){
             if(validar_clave($_POST['Contra'],$error_encontrado)){
                 echo "Contraseña segura"."<br>";
-                $base= new PDO("mysql:host=localhost; dbname=datos_usuario", "root","");
+                $base= new PDO("mysql:host=localhost; dbname=usuario", "root","");
                 $base->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
                 
-                $sql="INSERT into datos_usuarioo (usuario,password1) values (:login,:password)";
+                $sql="INSERT into datos_usuario (usuario, contraseña) values (:login,:password)";
                 $resultado=$base->prepare ($sql);
 
                 $corre=htmlentities(addslashes($_POST['correo']));
@@ -49,10 +49,8 @@
                     
                 $resultado->bindValue(":password",$contra);
                 $resultado->execute();
-
-    
-                    echo "Usuario creado";
-                   
+                
+   
                 }else{
                     echo "Contraseña insegura: ".$error_encontrado;
                 }
@@ -61,7 +59,10 @@
         ?>
         <input type="submit" value="REGISTRAR" name="enviar"/>
     </form>
-            
+    <?php
+            echo '<script>alert("La cuenta fue creada correctamente");</script>';
+            echo '<script>window.location.href="pagina_inicio.php";</script>';  
+        ?>
     </body>
 </html>
 

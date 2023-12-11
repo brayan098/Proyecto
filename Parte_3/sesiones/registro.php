@@ -1,15 +1,17 @@
 <html>
     <head>
-        <title>REGISTRO USUARIO</title>
-        <meta charset="utf8">
-          
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/estilosreg.css">
+        <title>Registro Usuario </title>
+</head>
     </head>
         <body>
     
         <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post" autocomplete="off">
             <h3>INGRESE CON SUS DATOS</h3>
     
-        <p>Correo: <input type="text" name="correo" id="correo"/></p>  
+        <p>Correo: <input type="text" name="correo" id="correo" autofocus required /></p>  
         <p>Contraseña: <input type="password" name="Contra" id="Contra"/></p>
     
             <script>
@@ -57,7 +59,7 @@
             }
                 echo "<br>";
         ?>
-        <input type="submit" value="Enviar" name="enviar"/>
+        <input type="submit" value="REGISTRAR" name="enviar"/>
     </form>
             
     </body>

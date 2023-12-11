@@ -84,5 +84,17 @@ input[type="text"]:focus,
 select:focus {
     border-color: #66afe9; /* Cambia el color del borde cuando la caja está enfocada */
 }
+.botonreg {
+    display: inline-block;
+    background-color: #41abb9;
+    color: #fff;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
 
+.botonreg:hover {
+    background-color: #117777;
+}
 

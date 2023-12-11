@@ -13,7 +13,7 @@
             <input type="search" name="search" placeholder="Buscar Producto..." autofocus required> <br>
             <button type="submit">Buscar</button> <br> <br>
             <a href="consulta.php" class="ir-button">Volver a consulta</a> <br> <br>
-            <a href="/Proyecto/Parte_3/sesiones/perfil_usuario.php" class="ir-button2">Volver a página principal</a>
+            <a href="/Proyecto/Parte_3/sesiones/pagina_inicio.php" class="ir-button2">Volver a página principal</a>
         </form>
        
 </body>

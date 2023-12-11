@@ -44,6 +44,7 @@
             <div class="form-row">
                 <input type="submit" name="enviar" id="enviar" value="ENVIAR">
                 <input type="reset" name="borrar" id="borrar" value="LIMPIAR FORMULARIO">
+                <a href="/Proyecto/Parte_3/sesiones/pagina_inicio.php" class="botonreg">Pagina de inicio</a></li>
             </div>
         </form>
     </div>

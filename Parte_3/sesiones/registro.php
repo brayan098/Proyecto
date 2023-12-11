@@ -49,6 +49,8 @@
                     
                 $resultado->bindValue(":password",$contra);
                 $resultado->execute();
+                echo '<script>alert("La cuenta fue creada correctamente");</script>';
+                echo '<script>window.location.href="pagina_inicio.php";</script>';  
                 
    
                 }else{
@@ -57,12 +59,11 @@
             }
                 echo "<br>";
         ?>
-        <input type="submit" value="REGISTRAR" name="enviar"/>
+        <input type="submit" value="Registrar" name="enviar"/>
+        <a href="pagina_inicio.php" class="iniciar">Iniciar Sesión</a>
+
     </form>
-    <?php
-            echo '<script>alert("La cuenta fue creada correctamente");</script>';
-            echo '<script>window.location.href="pagina_inicio.php";</script>';  
-        ?>
+
     </body>
 </html>
 

@@ -10,8 +10,8 @@
         <ul class="menu">
             <li><a href="#">Procesos</a>
                 <ul class="submenu">
-                        <li><a href="./Parte_1/form_busqueda.php">Buscar producto</a></li>
-                        <li><a href="./Parte_2/Productos/insertar_productos.php">Agregar producto</a></li>
+                        <li><a href="/Proyecto/Parte_1/form_busqueda.php">Buscar producto</a></li>
+                        <li><a href="/Proyecto/Parte_2/Productos/insertar_productos.php">Agregar producto</a></li>
                 </ul>
             </li>
             <li><a href="pagina_inicio.php">Inicio</a></li>

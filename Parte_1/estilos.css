@@ -29,23 +29,63 @@ th, td {
     padding: 8px;
     text-align: center;
 }
-.ir-button {
-    display: inline-block;
-    background-color: #19a4ba;
-    color: #fff;
-    border: none;
+
+
+.form-search {
+    text-align: center;
+}
+
+input[type="search"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
     padding: 10px 20px;
-    border-radius: 4px;
-    text-decoration: none;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
-    font-size: 0.8vw;
     font-size: 16px;
 }
 
-.ir-button:hover {
-    background-color: #147e8f;
+button:hover {
+    background-color: #45a049;
 }
+
+a.ir-button {
+    display: inline-block;
+    text-align: left;
+    background-color: #e74c3c; /* Rojo */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+a.ir-button:hover {
+    background-color: #c0392b; /* Rojo más oscuro al pasar el ratón */
+}
+
+a.ir-button2 {
+    display: inline-block;
+    background-color: #f39c12; /* Amarillo */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+a.ir-button2:hover {
+    background-color: #d35400; /* Amarillo más oscuro al pasar el ratón */
+}
+
 .selector {
     width: 22.6%;
     padding: 10px;

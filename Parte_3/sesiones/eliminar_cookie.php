@@ -1,10 +1,11 @@
 <?php
-$cookies = $_COOKIE;
-
-foreach($cookies as $nombre => $valor) {
-    setcookie($nombre, "", time() - 3600, "/");
+session_start();
+session_unset();
+session_destroy();
+if (isset($_COOKIE["datos_usuario"])) {
+    setcookie("datos_usuario", "", time() - 3600, "/");
 }
 
-echo "Todas las cookies eliminadas con éxito";
+echo "Sesión cerrada con éxito";
 header("location: pagina_inicio.php");
 ?>

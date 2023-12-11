@@ -47,3 +47,17 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #45a049;
 }
+
+.iniciar {
+    display: inline-block;
+    background-color: #3498db; /* Azul */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.iniciar:hover {
+    background-color: #2980b9; 
+}

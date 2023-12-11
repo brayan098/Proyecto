@@ -14,10 +14,9 @@
                         <li><a href="/Proyecto/Parte_2/Productos/insertar_productos.php">Agregar producto</a></li>
                 </ul>
             </li>
-            <li><a href="pagina_inicio.php">Inicio</a></li>
             <li><a href="#">Nosotros</a></li>
             <li><a href="#">Contacto</a></li>
-            <li><a href="eliminar_cookie.php">Cerrar sesión</a></li>
+            </li>
 
         </ul>
     </nav>

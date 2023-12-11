@@ -19,6 +19,11 @@ body {
     color: #333;
 }
 
+.titulo2{
+    text-align: center;
+    color: #136c96;
+}
+
 .form_c {
     margin-bottom: 20px;
 }
@@ -131,3 +136,28 @@ input[type="password"] {
 .botonreg a:hover {
     background-color: #117777;
 }
+.Texto
+{ 
+    color: black;
+    padding-top: 20px;
+    text-align: justify;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .image-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }

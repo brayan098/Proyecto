@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css?ver=1.0">
     <title>Formulario de acceso</title>
     
 </head>
@@ -33,7 +33,10 @@
         </div>
         </form>
         <br>
-        <label>No tengo cuenta<a href="registro.php">Crear cuenta</a></label>
+        <div class="botonreg">
+        <label>No tengo cuenta</label>
+        <a href="registro.php">Crear cuenta</a>
+    </div>
     </div>
 </body>
 </html>
